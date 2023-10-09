@@ -8,12 +8,170 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc36cad5-0116-4a3c-9f96-add5aefec16d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/GameMode/BP_LyraGameMode.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/CommonGame.uplugin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/CommonGame.Build.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Private/Actions/AsyncAction_CreateWidgetAsync.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Private/Actions/AsyncAction_PushContentToLayerForPlayer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Private/Actions/AsyncAction_ShowConfirmation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Private/CommonGameInstance.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Private/CommonGameModule.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Private/CommonLocalPlayer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Private/CommonPlayerController.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Private/CommonPlayerInputKey.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Private/CommonUIExtensions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Private/GameUIManagerSubsystem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Private/GameUIPolicy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Private/LogCommonGame.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Private/LogCommonGame.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Private/Messaging/CommonGameDialog.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Private/Messaging/CommonMessagingSubsystem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Private/PrimaryGameLayout.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Public/Actions/AsyncAction_CreateWidgetAsync.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Public/Actions/AsyncAction_PushContentToLayerForPlayer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Public/Actions/AsyncAction_ShowConfirmation.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Public/CommonGameInstance.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Public/CommonLocalPlayer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Public/CommonPlayerController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Public/CommonPlayerInputKey.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Public/CommonUIExtensions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Public/GameUIManagerSubsystem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Public/GameUIPolicy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Public/Messaging/CommonGameDialog.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Public/Messaging/CommonMessagingSubsystem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonGame/Source/Public/PrimaryGameLayout.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonLoadingScreen/CommonLoadingScreen.uplugin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonLoadingScreen/Resources/Icon128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonLoadingScreen/Source/CommonLoadingScreen/CommonLoadingScreen.Build.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonLoadingScreen/Source/CommonLoadingScreen/Private/CommonLoadingScreenModule.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonLoadingScreen/Source/CommonLoadingScreen/Private/CommonLoadingScreenSettings.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonLoadingScreen/Source/CommonLoadingScreen/Private/CommonLoadingScreenSettings.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonLoadingScreen/Source/CommonLoadingScreen/Private/LoadingScreenManager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonLoadingScreen/Source/CommonLoadingScreen/Public/LoadingProcessInterface.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonLoadingScreen/Source/CommonLoadingScreen/Public/LoadingProcessTask.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonLoadingScreen/Source/CommonLoadingScreen/Public/LoadingProcessTask.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonLoadingScreen/Source/CommonLoadingScreen/Public/LoadingScreenManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonLoadingScreen/Source/CommonStartupLoadingScreen/CommonStartupLoadingScreen.Build.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonLoadingScreen/Source/CommonStartupLoadingScreen/Private/CommonPreLoadScreen.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonLoadingScreen/Source/CommonStartupLoadingScreen/Private/CommonPreLoadScreen.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonLoadingScreen/Source/CommonStartupLoadingScreen/Private/CommonStartupLoadingScreen.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonLoadingScreen/Source/CommonStartupLoadingScreen/Private/SCommonPreLoadingScreenWidget.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonLoadingScreen/Source/CommonStartupLoadingScreen/Private/SCommonPreLoadingScreenWidget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonUser/CommonUser.uplugin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonUser/Resources/Icon128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonUser/Source/CommonUser/CommonUser.Build.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonUser/Source/CommonUser/Private/AsyncAction_CommonUserInitialize.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonUser/Source/CommonUser/Private/CommonSessionSubsystem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonUser/Source/CommonUser/Private/CommonUserModule.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonUser/Source/CommonUser/Private/CommonUserSubsystem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonUser/Source/CommonUser/Private/CommonUserTypes.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonUser/Source/CommonUser/Public/AsyncAction_CommonUserInitialize.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonUser/Source/CommonUser/Public/CommonSessionSubsystem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonUser/Source/CommonUser/Public/CommonUserModule.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonUser/Source/CommonUser/Public/CommonUserSubsystem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/CommonUser/Source/CommonUser/Public/CommonUserTypes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Binaries/Win64/UnrealEditor-LyraCore.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Binaries/Win64/UnrealEditor.modules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Config/Tags/ShooterCoreTags.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Content/Experiences/BP_LyraCore_Exper.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Content/Game/BP_HeroPawn.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Content/Game/HeroData_CheesePatrol.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Content/Maps/GameMap.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Intermediate/Build/Win64/x64/UnrealEditor/Development/LyraCore/Default.rc2.res" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Intermediate/Build/Win64/x64/UnrealEditor/Development/LyraCore/Default.rc2.res.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Intermediate/Build/Win64/x64/UnrealEditor/Development/LyraCore/Definitions.LyraCore.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Intermediate/Build/Win64/x64/UnrealEditor/Development/LyraCore/LiveCodingInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Intermediate/Build/Win64/x64/UnrealEditor/Development/LyraCore/LyraCore.cpp.dep.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Intermediate/Build/Win64/x64/UnrealEditor/Development/LyraCore/LyraCore.cpp.obj.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Intermediate/Build/Win64/x64/UnrealEditor/Development/LyraCore/UnrealEditor-LyraCore.dll.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Intermediate/Build/Win64/x64/UnrealEditor/Development/LyraCore/UnrealEditor-LyraCore.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Intermediate/Build/Win64/x64/UnrealEditor/Development/LyraCore/UnrealEditor-LyraCore.lib.response" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Intermediate/Build/Win64/x64/UnrealEditor/Development/LyraCore/UnrealEditor-LyraCore.suppressed.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Source/LyraCore/LyraCore.Build.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Source/LyraCore/Private/LyraCore.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Source/LyraCore/Public/LyraCore.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameplayMessageRouter/GameplayMessageRouter.uplugin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameplayMessageRouter/Source/GameplayMessageNodes/GameplayMessageNodes.Build.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameplayMessageRouter/Source/GameplayMessageNodes/Private/GameplayMessageNodesModule.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameplayMessageRouter/Source/GameplayMessageNodes/Private/K2Node_AsyncAction_ListenForGameplayMessages.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameplayMessageRouter/Source/GameplayMessageNodes/Public/K2Node_AsyncAction_ListenForGameplayMessages.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/GameplayMessageRuntime.Build.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Private/GameFramework/AsyncAction_ListenForGameplayMessage.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Private/GameFramework/GameplayMessageRuntime.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Private/GameFramework/GameplayMessageSubsystem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Public/GameFramework/AsyncAction_ListenForGameplayMessage.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Public/GameFramework/GameplayMessageSubsystem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/GameplayMessageRouter/Source/GameplayMessageRuntime/Public/GameFramework/GameplayMessageTypes2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/ModularGameplayActors.uplugin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Source/ModularGameplayActors/ModularGameplayActors.Build.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Source/ModularGameplayActors/Private/ModularAIController.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Source/ModularGameplayActors/Private/ModularCharacter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Source/ModularGameplayActors/Private/ModularGameMode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Source/ModularGameplayActors/Private/ModularGameState.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Source/ModularGameplayActors/Private/ModularGameplayActorsModule.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Source/ModularGameplayActors/Private/ModularPawn.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Source/ModularGameplayActors/Private/ModularPlayerController.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Source/ModularGameplayActors/Private/ModularPlayerState.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Source/ModularGameplayActors/Public/ModularAIController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Source/ModularGameplayActors/Public/ModularCharacter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Source/ModularGameplayActors/Public/ModularGameMode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Source/ModularGameplayActors/Public/ModularGameState.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Source/ModularGameplayActors/Public/ModularPawn.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Source/ModularGameplayActors/Public/ModularPlayerController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ModularGameplayActors/Source/ModularGameplayActors/Public/ModularPlayerState.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/Character/LyraPawnData.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/Character/LyraPawnData.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/GameModes/LyraExperienceActionSet.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/GameModes/LyraExperienceActionSet.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/GameModes/LyraExperienceDefinition.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/GameModes/LyraExperienceDefinition.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/GameModes/LyraExperienceManager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/GameModes/LyraExperienceManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/GameModes/LyraExperienceManagerComponent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/GameModes/LyraExperienceManagerComponent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/GameModes/LyraGameMode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/GameModes/LyraGameMode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/GameModes/LyraGameState.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/GameModes/LyraGameState.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/GameModes/LyraWorldSettings.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/GameModes/LyraWorldSettings.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/LyraLogChannels.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/LyraLogChannels.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/System/LyraAssetManager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/LyraGame/System/LyraAssetManager.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lyra/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lyra/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Maps/ThirdPersonMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Maps/ThirdPersonMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lyra.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Lyra.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Content/LyraCore.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Content/LyraCore.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/LyraCore.uplugin" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/LyraCore.uplugin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Resources/Icon128.png" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/GameFeatures/LyraCore/Resources/Icon128.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LyraGame/LyraGame.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LyraGame/LyraGame.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -26,28 +184,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Xiaoyu\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Xiaoyu\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\Xiaoyu\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Xiaoyu\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Xiaoyu\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Xiaoyu\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Lyra" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -115,7 +273,9 @@
       <option name="presentableId" value="Default" />
       <updated>1696756533442</updated>
       <workItem from="1696756534805" duration="1310000" />
-      <workItem from="1696766040131" duration="792000" />
+      <workItem from="1696766040131" duration="6217000" />
+      <workItem from="1696806959139" duration="8311000" />
+      <workItem from="1696817065391" duration="1199000" />
     </task>
     <servers />
   </component>

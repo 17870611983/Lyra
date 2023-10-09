@@ -8,14 +8,41 @@ public class LyraGame : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
+
+		//LyraWorldSettings里面#include "LyraLogChannels.h"就不报错了
+		PublicIncludePaths.AddRange(
+			new string[] {
+				"LyraGame"
+			}
+		);
 		PublicDependencyModuleNames.AddRange(
-			new string[]
-			{
+			new string[] {
 				"Core",
 				"CoreUObject",
+				"ApplicationCore",
 				"Engine",
+				
+				
+				"GameplayTags",
+				"GameplayTasks",
+				"GameplayAbilities",
+				
+				
+				"ModularGameplay",
+				"ModularGameplayActors",
+				"GameFeatures",
+				"CommonLoadingScreen",
+			}
+		);
+
+		PrivateDependencyModuleNames.AddRange(
+			new string[] {
 				"InputCore",
-				"HeadMountedDisplay",
+				"Slate",
+				"SlateCore",
+				"CommonGame",
+				"CommonUser",
+				"GameplayMessageRuntime",
 				"EnhancedInput"
 			}
 		);

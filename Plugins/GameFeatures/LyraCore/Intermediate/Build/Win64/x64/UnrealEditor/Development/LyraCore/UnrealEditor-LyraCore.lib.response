@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-LyraCore.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\UE_Proejcts\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
+"F:\UE_Proejcts\Lyra\Plugins\GameFeatures\LyraCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\LyraCore\LyraCore.cpp.obj"
+"F:\UE_Proejcts\Lyra\Plugins\GameFeatures\LyraCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\LyraCore\Default.rc2.res"
+/OUT:"F:\UE_Proejcts\Lyra\Plugins\GameFeatures\LyraCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\LyraCore\UnrealEditor-LyraCore.lib"

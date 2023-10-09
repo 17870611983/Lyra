@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\ue_proejcts\\lyra\\plugins\\gamefeatures\\lyracore\\source\\lyracore\\private\\lyracore.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\ue_proejcts\\lyra\\intermediate\\build\\win64\\x64\\lyraeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "f:\\ue_proejcts\\lyra\\plugins\\gamefeatures\\lyracore\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\lyracore\\definitions.lyracore.h",
+            "f:\\ue_proejcts\\lyra\\plugins\\gamefeatures\\lyracore\\source\\lyracore\\public\\lyracore.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
